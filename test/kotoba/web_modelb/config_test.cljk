@@ -1,5 +1,5 @@
 (ns kotoba.web-modelb.config-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [kotoba.web-modelb.config :as config]))
 
 (deftest dance-camera-test

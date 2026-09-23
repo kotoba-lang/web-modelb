@@ -1,5 +1,5 @@
 (ns kotoba.web-modelb-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [kotoba.web-modelb :as modelb]))
 
 (deftest port-manifest-test
